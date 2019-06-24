@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/abovgrp">
+
+        <item
+
+            android:title="@string/home"
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            />
+
+        <item
+
+            android:title="@string/orders"
+            android:id="@+id/orders"
+            android:icon="@drawable/ic_shopping"
+            />
+
+        <item
+
+            android:title="@string/myaccount"
+            android:id="@+id/myaccount"
+            android:icon="@drawable/ic_account"
+            />
+
+        <item
+
+            android:title="@string/tandc"
+            android:id="@+id/tandc"
+            android:icon="@drawable/ic_tandc"
+            />
+
+        <item
+
+            android:title="@string/logout"
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_power"
+            />
+
+
+
+    </group>
+
+   <group android:checkableBehavior="single"
+       android:id="@+id/belowgrp">
+
+       <item
+           android:title="@string/rateus"
+           android:id="@+id/rate"
+            android:icon="@drawable/ic_star"
+           />
+
+       <item
+           android:title="@string/privacy"
+           android:id="@+id/privacy"
+           android:icon="@drawable/ic_policy"
+           />
+   </group>
+
+
+</menu>
